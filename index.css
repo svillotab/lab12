@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    margin-top: 4%;
+    background-color: rgba(188, 188, 188, 0.255);
+  }
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #cccccc52;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.contact-card {
+    background: #eaeaea87;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.contact-card button {
+    background-color: #dc3545;
+}
+
+.contact-card button.edit {
+    background-color: #007bff;
+}
+
+.contact-card button:hover {
+    opacity: 0.8;
+}
